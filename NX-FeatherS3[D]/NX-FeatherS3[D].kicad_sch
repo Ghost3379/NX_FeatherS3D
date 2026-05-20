@@ -2092,6 +2092,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 152.4) (xy 271.78 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf0423f-e0b0-4cfd-bb27-c40f35ea1970")
+	)
+	(wire
+		(pts
 			(xy 223.52 118.11) (xy 196.85 118.11)
 		)
 		(stroke
@@ -2192,6 +2202,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 110.49) (xy 67.31 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6282bf72-d0dc-4c3c-a3cf-8cf5403a6acd")
+	)
+	(wire
+		(pts
 			(xy 187.96 52.07) (xy 187.96 63.5)
 		)
 		(stroke
@@ -2222,16 +2242,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 107.95) (xy 54.61 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69845e91-9b59-4a7b-ba18-5c2a89b31706")
-	)
-	(wire
-		(pts
 			(xy 207.01 38.1) (xy 207.01 71.12)
 		)
 		(stroke
@@ -2239,6 +2249,16 @@
 			(type default)
 		)
 		(uuid "6b8cd21d-a662-41fb-a1b3-36feb0dceec0")
+	)
+	(wire
+		(pts
+			(xy 43.18 107.95) (xy 67.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1b3afd-1d49-45d2-b23a-8e1f9ae662bc")
 	)
 	(wire
 		(pts
@@ -2512,16 +2532,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 105.41) (xy 54.61 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c148044a-3967-4219-b3c7-20f17bc114c5")
-	)
-	(wire
-		(pts
 			(xy 180.34 58.42) (xy 180.34 63.5)
 		)
 		(stroke
@@ -2572,6 +2582,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 149.86) (xy 271.78 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2d5bd4-32ea-41de-892c-ff7c05812f8c")
+	)
+	(wire
+		(pts
 			(xy 223.52 124.46) (xy 186.69 124.46)
 		)
 		(stroke
@@ -2619,6 +2639,26 @@
 			(type default)
 		)
 		(uuid "d05194b6-f3e1-42cf-8fa8-98db67435a3e")
+	)
+	(wire
+		(pts
+			(xy 43.18 105.41) (xy 67.31 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a5dedf-12e0-4186-ae03-5c1c097d02c8")
+	)
+	(wire
+		(pts
+			(xy 130.81 104.14) (xy 148.59 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b920d9-3bdb-43d6-957b-e94db6f8c846")
 	)
 	(wire
 		(pts
@@ -2722,13 +2762,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 110.49) (xy 54.61 110.49)
+			(xy 259.08 144.78) (xy 271.78 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9810a53-98fd-46fa-a68c-a657b1b8ee39")
+		(uuid "fb955c34-e7d3-4ae2-b4e3-2b94ab1eeb40")
 	)
 	(wire
 		(pts
@@ -2739,6 +2779,16 @@
 			(type default)
 		)
 		(uuid "fdfa0a1b-795e-4886-8be7-457aae74209c")
+	)
+	(wire
+		(pts
+			(xy 259.08 147.32) (xy 271.78 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4b317c-31bb-4fd5-86bc-348d415d3067")
 	)
 	(label "USB"
 		(at 177.8 20.32 270)
@@ -2791,6 +2841,16 @@
 			(justify left bottom)
 		)
 		(uuid "0db2d7df-fc25-4095-b5b5-9c82a54a18ee")
+	)
+	(label "SPI MI"
+		(at 43.18 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0eb0ea5c-9b17-4d96-8870-3c3d731fd6dd")
 	)
 	(label "IO7"
 		(at 139.7 77.47 0)
@@ -2974,6 +3034,16 @@
 		)
 		(uuid "431f0784-4b8f-4714-8bf9-b11d2330817e")
 	)
+	(label "SPI MO"
+		(at 43.18 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "468839d7-cab9-4b7b-8a14-5d0f25d6e2c6")
+	)
 	(label "IO33"
 		(at 105.41 102.87 180)
 		(effects
@@ -2986,6 +3056,16 @@
 			(justify right bottom)
 		)
 		(uuid "479f06da-a7f7-444f-b3b0-1d59b09b7514")
+	)
+	(label "SPI SCK"
+		(at 43.18 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48da606c-3160-44c1-84b4-3f4b823a76c8")
 	)
 	(label "IO3"
 		(at 139.7 69.85 0)
@@ -3196,6 +3276,26 @@
 		)
 		(uuid "aef7360a-64ae-467e-abc9-553013d88b07")
 	)
+	(label "SPI MI"
+		(at 271.78 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0933736-f6d5-4c31-a5f5-bc9e790f3fc9")
+	)
+	(label "SPI MO"
+		(at 271.78 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b383d146-a0d7-4230-b6f8-660d9c36ff71")
+	)
 	(label "U0RXD"
 		(at 171.45 127 90)
 		(effects
@@ -3261,6 +3361,16 @@
 		)
 		(uuid "c1bd1154-f887-4ccd-9c8c-741e97af8238")
 	)
+	(label "SPI SCK"
+		(at 271.78 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd5a07cc-0704-4efd-8fc3-b77f721d5d04")
+	)
 	(label "IO3"
 		(at 105.41 95.25 180)
 		(effects
@@ -3274,6 +3384,16 @@
 		)
 		(uuid "ceddca23-8fe6-4250-95b3-d46ae9ea0573")
 	)
+	(label "NAND CS"
+		(at 130.81 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d60d21d5-b05a-4446-8634-19180f7e55d1")
+	)
 	(label "IO14"
 		(at 54.61 95.25 0)
 		(effects
@@ -3286,6 +3406,16 @@
 			(justify left bottom)
 		)
 		(uuid "da1cc5ea-ceba-4501-b194-8a2a8e4e6d80")
+	)
+	(label "NAND CS"
+		(at 271.78 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e28871e9-7554-44b6-893f-386284215327")
 	)
 	(label "IO6"
 		(at 139.7 74.93 0)
@@ -3375,7 +3505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d798839-a785-4749-9b87-02c3b203ab93")
-		(property "Reference" "J5"
+		(property "Reference" "A1"
 			(at 272.415 116.84 0)
 			(effects
 				(font
@@ -3383,7 +3513,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "AUDIO_OUT"
 			(at 272.415 119.38 0)
 			(effects
 				(font
@@ -3427,7 +3557,7 @@
 		(instances
 			(project ""
 				(path "/3e891cc2-3bbe-4423-b033-9519c2d66bb1"
-					(reference "J5")
+					(reference "A1")
 					(unit 1)
 				)
 			)
@@ -4125,6 +4255,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "CS" input
+			(at 259.08 144.78 0)
+			(uuid "6af73618-ed91-4c70-85b8-ad4c2f52f9e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI CLK" input
+			(at 259.08 147.32 0)
+			(uuid "ed4de151-abbd-4946-87ee-61bddde9e684")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI MI" tri_state
+			(at 259.08 149.86 0)
+			(uuid "3505fd81-ec49-496d-8dde-3d17f3a96f44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI MO" input
+			(at 259.08 152.4 0)
+			(uuid "c8aef90d-71f1-497e-a2ed-a38600b7c3cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
